@@ -16,15 +16,15 @@
 
 	<distributionManagement>
 		 <snapshotRepository>
-		    <id>NexusRepo</id>
-		    <url>http://100.25.155.112:8081/repository/mc-snapshot/</url>
+		    <id>NexusRepo-snap</id>
+		    <url>http://54.166.163.80:8081/repository/vinay-repo-snapshot/</url>
 		 </snapshotRepository>
 		
 		<repository>
 		    <id>NexusRepo</id>
-		    <url>http://100.25.155.112:8081/repository/mc-release/</url>
+		    <url>http://54.166.163.80:8081/repository/vinay-repository/</url>
 		</repository>
-  	</distributionManagement>
+ 	</distributionManagement>
 
     
     <build>
